@@ -1,0 +1,22 @@
+<table class="table table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Bike #</th>
+      <th scope="col">Last Workout</th>
+      <th scope="col"># Sessions past 24h</th>
+      <th scope="col"># Sessions past week</th>
+      <th scope="col">Recent Average RPM</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr *ngFor = "let bike of bikedata">
+      <th scope="row">Bike {{bike.id}}</th>
+      <td>{{bike.last}}</td>
+      <td>{{bike.day}}</td>
+      <td>{{bike.week}}</td>
+      <td>{{bike.rpm}} RPM</td>
+    </tr>
+    
+  </tbody>
+</table>
