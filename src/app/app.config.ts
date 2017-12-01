@@ -1,3 +1,3 @@
 export var config = {
-	URI: "http://localhost:8000"
+	URI: "http://52.34.141.31:8000"
 }
